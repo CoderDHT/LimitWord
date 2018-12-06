@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEA08B5021B9734D00160E7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA08B4F21B9734D00160E7B /* AppDelegate.m */; };
+		DEA08B5321B9734D00160E7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA08B5221B9734D00160E7B /* ViewController.m */; };
+		DEA08B5621B9734D00160E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA08B5421B9734D00160E7B /* Main.storyboard */; };
+		DEA08B5821B9734E00160E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA08B5721B9734E00160E7B /* Assets.xcassets */; };
+		DEA08B5B21B9734E00160E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA08B5921B9734E00160E7B /* LaunchScreen.storyboard */; };
+		DEA08B5E21B9734E00160E7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA08B5D21B9734E00160E7B /* main.m */; };
+		DEA08B6821B9734E00160E7B /* LimitWordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA08B6721B9734E00160E7B /* LimitWordTests.m */; };
+		DEA08B7321B9734E00160E7B /* LimitWordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA08B7221B9734E00160E7B /* LimitWordUITests.m */; };
+		DEA08B8521B9737B00160E7B /* LimitWordTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA08B8321B9737B00160E7B /* LimitWordTextView.m */; };
+		DEA08B8621B9737B00160E7B /* LimitWordTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA08B8421B9737B00160E7B /* LimitWordTextField.m */; };
+		DEA08B8821B9771300160E7B /* limitDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = DEA08B8721B9771300160E7B /* limitDemo.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEA08B6421B9734E00160E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEA08B4321B9734D00160E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA08B4A21B9734D00160E7B;
+			remoteInfo = LimitWord;
+		};
+		DEA08B6F21B9734E00160E7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEA08B4321B9734D00160E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA08B4A21B9734D00160E7B;
+			remoteInfo = LimitWord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEA08B4B21B9734D00160E7B /* LimitWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LimitWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA08B4E21B9734D00160E7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEA08B4F21B9734D00160E7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEA08B5121B9734D00160E7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DEA08B5221B9734D00160E7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DEA08B5521B9734D00160E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEA08B5721B9734E00160E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEA08B5A21B9734E00160E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEA08B5C21B9734E00160E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA08B5D21B9734E00160E7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEA08B6321B9734E00160E7B /* LimitWordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LimitWordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA08B6721B9734E00160E7B /* LimitWordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LimitWordTests.m; sourceTree = "<group>"; };
+		DEA08B6921B9734E00160E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA08B6E21B9734E00160E7B /* LimitWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LimitWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA08B7221B9734E00160E7B /* LimitWordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LimitWordUITests.m; sourceTree = "<group>"; };
+		DEA08B7421B9734E00160E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA08B8121B9737B00160E7B /* LimitWordTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitWordTextView.h; sourceTree = "<group>"; };
+		DEA08B8221B9737B00160E7B /* LimitWordTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitWordTextField.h; sourceTree = "<group>"; };
+		DEA08B8321B9737B00160E7B /* LimitWordTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitWordTextView.m; sourceTree = "<group>"; };
+		DEA08B8421B9737B00160E7B /* LimitWordTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitWordTextField.m; sourceTree = "<group>"; };
+		DEA08B8721B9771300160E7B /* limitDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = limitDemo.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEA08B4821B9734D00160E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA08B6021B9734E00160E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA08B6B21B9734E00160E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEA08B4221B9734D00160E7B = {
+			isa = PBXGroup;
+			children = (
+				DEA08B4D21B9734D00160E7B /* LimitWord */,
+				DEA08B6621B9734E00160E7B /* LimitWordTests */,
+				DEA08B7121B9734E00160E7B /* LimitWordUITests */,
+				DEA08B4C21B9734D00160E7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEA08B4C21B9734D00160E7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEA08B4B21B9734D00160E7B /* LimitWord.app */,
+				DEA08B6321B9734E00160E7B /* LimitWordTests.xctest */,
+				DEA08B6E21B9734E00160E7B /* LimitWordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEA08B4D21B9734D00160E7B /* LimitWord */ = {
+			isa = PBXGroup;
+			children = (
+				DEA08B4E21B9734D00160E7B /* AppDelegate.h */,
+				DEA08B4F21B9734D00160E7B /* AppDelegate.m */,
+				DEA08B5121B9734D00160E7B /* ViewController.h */,
+				DEA08B5221B9734D00160E7B /* ViewController.m */,
+				DEA08B8021B9736600160E7B /* LimitWord */,
+				DEA08B5421B9734D00160E7B /* Main.storyboard */,
+				DEA08B5721B9734E00160E7B /* Assets.xcassets */,
+				DEA08B5921B9734E00160E7B /* LaunchScreen.storyboard */,
+				DEA08B5C21B9734E00160E7B /* Info.plist */,
+				DEA08B8721B9771300160E7B /* limitDemo.gif */,
+				DEA08B5D21B9734E00160E7B /* main.m */,
+			);
+			path = LimitWord;
+			sourceTree = "<group>";
+		};
+		DEA08B6621B9734E00160E7B /* LimitWordTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEA08B6721B9734E00160E7B /* LimitWordTests.m */,
+				DEA08B6921B9734E00160E7B /* Info.plist */,
+			);
+			path = LimitWordTests;
+			sourceTree = "<group>";
+		};
+		DEA08B7121B9734E00160E7B /* LimitWordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEA08B7221B9734E00160E7B /* LimitWordUITests.m */,
+				DEA08B7421B9734E00160E7B /* Info.plist */,
+			);
+			path = LimitWordUITests;
+			sourceTree = "<group>";
+		};
+		DEA08B8021B9736600160E7B /* LimitWord */ = {
+			isa = PBXGroup;
+			children = (
+				DEA08B8221B9737B00160E7B /* LimitWordTextField.h */,
+				DEA08B8421B9737B00160E7B /* LimitWordTextField.m */,
+				DEA08B8121B9737B00160E7B /* LimitWordTextView.h */,
+				DEA08B8321B9737B00160E7B /* LimitWordTextView.m */,
+			);
+			path = LimitWord;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEA08B4A21B9734D00160E7B /* LimitWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA08B7721B9734E00160E7B /* Build configuration list for PBXNativeTarget "LimitWord" */;
+			buildPhases = (
+				DEA08B4721B9734D00160E7B /* Sources */,
+				DEA08B4821B9734D00160E7B /* Frameworks */,
+				DEA08B4921B9734D00160E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LimitWord;
+			productName = LimitWord;
+			productReference = DEA08B4B21B9734D00160E7B /* LimitWord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEA08B6221B9734E00160E7B /* LimitWordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA08B7A21B9734E00160E7B /* Build configuration list for PBXNativeTarget "LimitWordTests" */;
+			buildPhases = (
+				DEA08B5F21B9734E00160E7B /* Sources */,
+				DEA08B6021B9734E00160E7B /* Frameworks */,
+				DEA08B6121B9734E00160E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEA08B6521B9734E00160E7B /* PBXTargetDependency */,
+			);
+			name = LimitWordTests;
+			productName = LimitWordTests;
+			productReference = DEA08B6321B9734E00160E7B /* LimitWordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEA08B6D21B9734E00160E7B /* LimitWordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA08B7D21B9734E00160E7B /* Build configuration list for PBXNativeTarget "LimitWordUITests" */;
+			buildPhases = (
+				DEA08B6A21B9734E00160E7B /* Sources */,
+				DEA08B6B21B9734E00160E7B /* Frameworks */,
+				DEA08B6C21B9734E00160E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEA08B7021B9734E00160E7B /* PBXTargetDependency */,
+			);
+			name = LimitWordUITests;
+			productName = LimitWordUITests;
+			productReference = DEA08B6E21B9734E00160E7B /* LimitWordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEA08B4321B9734D00160E7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "董海涛";
+				TargetAttributes = {
+					DEA08B4A21B9734D00160E7B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DEA08B6221B9734E00160E7B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DEA08B4A21B9734D00160E7B;
+					};
+					DEA08B6D21B9734E00160E7B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DEA08B4A21B9734D00160E7B;
+					};
+				};
+			};
+			buildConfigurationList = DEA08B4621B9734D00160E7B /* Build configuration list for PBXProject "LimitWord" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEA08B4221B9734D00160E7B;
+			productRefGroup = DEA08B4C21B9734D00160E7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEA08B4A21B9734D00160E7B /* LimitWord */,
+				DEA08B6221B9734E00160E7B /* LimitWordTests */,
+				DEA08B6D21B9734E00160E7B /* LimitWordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEA08B4921B9734D00160E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA08B5B21B9734E00160E7B /* LaunchScreen.storyboard in Resources */,
+				DEA08B8821B9771300160E7B /* limitDemo.gif in Resources */,
+				DEA08B5821B9734E00160E7B /* Assets.xcassets in Resources */,
+				DEA08B5621B9734D00160E7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA08B6121B9734E00160E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA08B6C21B9734E00160E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEA08B4721B9734D00160E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA08B8621B9737B00160E7B /* LimitWordTextField.m in Sources */,
+				DEA08B5321B9734D00160E7B /* ViewController.m in Sources */,
+				DEA08B8521B9737B00160E7B /* LimitWordTextView.m in Sources */,
+				DEA08B5E21B9734E00160E7B /* main.m in Sources */,
+				DEA08B5021B9734D00160E7B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA08B5F21B9734E00160E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA08B6821B9734E00160E7B /* LimitWordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA08B6A21B9734E00160E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA08B7321B9734E00160E7B /* LimitWordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEA08B6521B9734E00160E7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA08B4A21B9734D00160E7B /* LimitWord */;
+			targetProxy = DEA08B6421B9734E00160E7B /* PBXContainerItemProxy */;
+		};
+		DEA08B7021B9734E00160E7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA08B4A21B9734D00160E7B /* LimitWord */;
+			targetProxy = DEA08B6F21B9734E00160E7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEA08B5421B9734D00160E7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA08B5521B9734D00160E7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEA08B5921B9734E00160E7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA08B5A21B9734E00160E7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEA08B7521B9734E00160E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEA08B7621B9734E00160E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEA08B7821B9734E00160E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LimitWord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobcb.LimitWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEA08B7921B9734E00160E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LimitWord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobcb.LimitWord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEA08B7B21B9734E00160E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LimitWordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobcb.LimitWordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LimitWord.app/LimitWord";
+			};
+			name = Debug;
+		};
+		DEA08B7C21B9734E00160E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LimitWordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobcb.LimitWordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LimitWord.app/LimitWord";
+			};
+			name = Release;
+		};
+		DEA08B7E21B9734E00160E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LimitWordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobcb.LimitWordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LimitWord;
+			};
+			name = Debug;
+		};
+		DEA08B7F21B9734E00160E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LimitWordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobcb.LimitWordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LimitWord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEA08B4621B9734D00160E7B /* Build configuration list for PBXProject "LimitWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA08B7521B9734E00160E7B /* Debug */,
+				DEA08B7621B9734E00160E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA08B7721B9734E00160E7B /* Build configuration list for PBXNativeTarget "LimitWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA08B7821B9734E00160E7B /* Debug */,
+				DEA08B7921B9734E00160E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA08B7A21B9734E00160E7B /* Build configuration list for PBXNativeTarget "LimitWordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA08B7B21B9734E00160E7B /* Debug */,
+				DEA08B7C21B9734E00160E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA08B7D21B9734E00160E7B /* Build configuration list for PBXNativeTarget "LimitWordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA08B7E21B9734E00160E7B /* Debug */,
+				DEA08B7F21B9734E00160E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEA08B4321B9734D00160E7B /* Project object */;
+}
