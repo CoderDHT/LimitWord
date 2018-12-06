@@ -1,6 +1,7 @@
 # LimitWord
 UITextField和UITextView限制字数
 效果如下:
+
 ![image](https://github.com/CoderDHT/LimitWord/blob/master/LimitWord/limitDemo.gif)
 
 # 相比于其他限制字数方案的优势
