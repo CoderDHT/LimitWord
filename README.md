@@ -1,7 +1,7 @@
 # LimitWord
 UITextField和UITextView限制字数
-效果如下图:
-https://github.com/CoderDHT/LimitWord/blob/master/LimitWord/limitDemo.gif
+效果如下:
+![image](https://github.com/CoderDHT/LimitWord/blob/master/LimitWord/limitDemo.gif)
 
 # 相比于其他限制字数方案的优势
 1. 对拼音输入友好, 允许输入时不会出现拼音输入一半不能继续输入的情况, 同时不允许输入时连拼音也不能输入
